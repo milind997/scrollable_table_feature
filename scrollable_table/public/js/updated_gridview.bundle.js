@@ -264,7 +264,6 @@ frappe.ui.form.ControlTable = class CustomControlTable extends frappe.ui.form.Co
 	}
 }
 
-// Inject custom CSS (optional if not in external stylesheet)
 $(`<style>
 	.sticky-col-1 {
 		position: sticky;
@@ -275,7 +274,7 @@ $(`<style>
 	}
 	.sticky-col-2 {
 		position: sticky;
-		left: 120px; /* Adjust based on first column width */
+		left: 120px; 
 		background: #fff;
 		z-index: 3;
 		border-right: 1px solid #d1d1d1;
